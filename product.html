@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shop</title>
+    <link rel="icon" href="images/logo-2.png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/Bootstrap.css">
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <!-- <div class="container-fluid "> -->
+        <div class="row d-none d-md-flex">
+          <div class="col-md-12 col-12 ">
+            <div class="header-top d-flex align-items-center justify-content-between">
+              <div class="support ">
+              <span><i class="fa fa-users-cog "></i>الدعم الفني : 00912345678900</span>
+              </div>
+              <div class="information-site">
+                <span><i class="fa fa-truck"></i>توصيل سريع ومجاني</span>
+                <span><i class="fa fa-money-bill "></i>أفضل الأسعار كل يوم</span>
+                <span><i class="fa fa-boxes"></i>أكبر تشكيلة</span>
+              </div>
+           
+              <div class="language d-flex flex-row">
+                 <p>    اللغة (language): </p> 
+
+                <select class="form-select select-lang">
+                  <option value="">العربية</option>
+                  <option value="">English</option>
+                </select>
+              
+               
+              </div> 
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+      
+       
+      
+      <div class="top-header mb-2 d-flex align-items-center">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <a href="#">
+                <img class="img-fluid my-3 mx-sm-5" src="images/logo.png" alt="logo" width="200px" />
+              </a>
+            </div>
+
+            <div class="col-6 col-md-4 d-flex align-items-center ">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="ابحث عن المنتج ..."
+              />
+            </div>
+
+            <div
+              class="col-md-4 left-header d-flex align-items-center justify-content-end d-none d-lg-flex"
+            >
+              <a
+                data-bs-toggle="offcanvas"
+                href="#cart"
+                role="button"
+                aria-controls="cart"
+              >
+                <span class="text-white">السلة</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+
+              <a
+                data-bs-toggle="offcanvas"
+                href="#login"
+                role="button"
+                aria-controls="login"
+              >
+                <span class="text-white">الحساب</span>
+                <i class="fa-solid fa-user"></i>
+              </a>
+
+              <a href="#">
+                <span class="text-white">المفضلة</span>
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttom-header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <!-- <a class="navbar-brand" href="#">Navbar</a>  -->
+            <button
+              class="navbar-toggler menu-icon"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span> 
+            </button>
+
+            <div>
+              <button class="navbar-toggler menu-icon" type="button " data-bs-toggle="offcanvas"
+              href="#cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+
+              <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas"
+              href="#login">
+                <i class="fa-solid fa-user"></i>
+              </button>
+            </div>
+
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >الرئيسية</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="categories.html">اللابتوبات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="categories.html">الجوالات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="categories.html">  الساعات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="categories.html">الكفرات </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="categories.html"> الأكسسوارات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="categories.html">تابلت</a>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+      </div>
+     
+    </header>
+        <!-- end header -->
+
+    <div class="container-fluid mt-5">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+              <li class="active breadcrumb-item" aria-current="page">جوالات</li>
+              <li class="active breadcrumb-item" aria-current="page"> Samsung S24 Ultra </li>
+
+            </ol>
+          </nav>
+
+      <div class="row">
+        <div class= "col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-images carousel-indicators">
+              <img
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active img-slider"
+                src="images/mobile/mobile-3.webp"
+                alt=""
+              />
+              <img
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                class="img-slider"
+                aria-label="Slide 2"
+                src="images/mobile/mobile-3.webp"
+                alt=""
+              />
+              <img
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                class="img-slider"
+                aria-label="Slide 3"
+                src="images/mobile/mobile-3.webp"
+                alt=""
+              />
+            </div>
+            <div class="carousel-inner">
+              <div class="active carousel-item">
+                <img
+                  src="images/mobile/mobile-3.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/mobile/mobile-3.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/mobile/mobile-3.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="mt-3"
+            width="30%"
+            src="data:image/png;base64,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"
+            alt=""
+          />
+          <h1 class="modal-title fs-3 my-3">Samsung S24 Ultra</h1>
+          <p class="product-desc ">
+            موبايل جوال سامسونج اس 24 الترا رامات 12 جيجا – 256 جيجا تخزين
+            Samsung Galaxy S24 Ultra Dual SIM Smartphone
+          </p>
+          <div class="mb-3 quick-reviews">
+            <span>التقييمات :</span>
+            <div class="d-inline-flex stars">
+              <i class="text-warning fa-solid fa-star"></i>
+              <i class="text-warning fa-solid fa-star"></i>
+              <i class="text-warning fa-solid fa-star"></i>
+              <i class="text-warning fa-solid fa-star"></i>
+              <i class="text-warning fa-solid fa-star"></i>
+            </div>
+            <p class="show-eval mt-3"> (مشاهدة التقيمات)</p>
+          </div>
+          <div class="mb-3 price">
+            <span class="mb-3">السعر 1200$</span>
+            <span>1500%</span>
+          
+            <div class="">
+              <span ><i class="fas fa-tags mx-1 my-3"></i>خصم بنسبة 25%</span>
+            </div>
+          </div>
+
+          <div class="check-color">
+            <h3 class="text-black">أختر اللون:</h3>
+            <span style="background-color: rgb(232, 217, 174)"></span>
+            <span style="background-color: rgb(71, 65, 88)"></span>
+            <span style="background-color:rgb(70, 68, 64)"></span>
+            <span style="background-color:rgb(154, 148, 143)"></span>
+
+          </div>
+
+
+          <div class="d-flex btns">
+            <div class="btn-group btns-count">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn">-</button>
+            </div>
+
+            <div class="d-flex gap-1">
+              <button class="btn btn-danger">إضافة الى السلة</button>
+              <button class="btn btn-success">شراء الآن</button>
+            </div>
+          </div>
+          <hr />
+          <div class="gategory mb-3">
+            <span>التصنيفات :</span>
+            <a href="">جوالات</a>
+            <a href="">هواتف</a>
+            <a href="">هواتف سامسونج</a>
+          </div>
+
+          <div class="share">
+            <span>شارك :</span>
+            <div class="d-inline-flex gap-2 share-icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <hr>
+          <div class="mt-3 ">
+            <div class="Info-pro">
+              <span> <i class="fa-solid fa-shield-halved"></i> ضمان سنتين  </span>
+            </div>
+            <div class="Info-pro">
+              <span> <i class="fa-solid fa-box-open mx-2"></i> اطلبه الآن ليصلك خلال 2 يوم  </span>
+            </div>
+            <div class="Info-pro">
+              <span> <i class="fa fa-truck mx-2"></i> شحن سريع </span>
+            </div>
+            <div class="Info-pro">
+              <span> <i class="fa-solid fa-wallet mx-2"></i> دفع عند الاستلام </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="container-fluid mt-5">
+      <h2 class="text-center section-title">منتجات مشابهة</h2>
+    
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+    
+        <!-- <div class="row row-cols-2 row-cols-md-6 all-products">  -->
+          <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+            <div class="card overflow-hidden">
+              <img  class="m-auto"  height="190px" src="images/mobile/mobile-3.webp" alt="" loading="lazy">
+              <div class="product-info">
+                <h3>سامسونج s24 الترا</h3>
+                <p>
+                   ينميز الهاتف بكاميرات احترافية  مع شحن سريع، وتصميم فاخر بأداء قوي......
+                  </p>
+               
+                <div class="stars ">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class=" section-rival bg-danger">
+                  <i class="fas fa-tags"></i>
+                  <span >خصم بنسبة 25%</span>
+                </div>
+                <div class="price">
+                  <span>السعر 850$</span>
+                 
+                </div>
+                <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+            <div class="card overflow-hidden">
+              <img  class="m-auto"  height="190px" src="images/mobile/mobile-6.webp" alt="" loading="lazy">
+              <div class="product-info">
+                <h3>ايفون 16 برو ماكس</h3>
+                <p>
+                   ينميز الهاتف بكاميرات احترافية  مع شحن سريع، وتصميم فاخر 
+                  </p>
+             
+                <div class="stars ">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class=" section-rival bg-danger">
+                  <i class="fas fa-tags"></i>
+                  <span >خصم بنسبة 25%</span>
+                </div>
+                <div class="price">
+                  <span>السعر 850$</span>
+                 
+                </div>
+                <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+            <div class="card overflow-hidden">
+              <img  class="m-auto"  height="190px" src="images/mobile/mobile-5.webp" alt="" loading="lazy">
+              <div class="product-info">
+                <h3>سامسونج s25 الترا</h3>
+                <p>
+                   ينميز الهاتف بكاميرات احترافية  مع شحن سريع، وتصميم فاخر بأداء قوي......
+                  </p>
+          
+                <div class="stars ">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class=" section-rival bg-danger">
+                  <i class="fas fa-tags"></i>
+                  <span >خصم بنسبة 25%</span>
+                </div>
+                <div class="price">
+                  <span>السعر 850$</span>
+                 
+                </div>
+                <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+            <div class="card overflow-hidden">
+              <img  class="m-auto"  height="190px" src="images/mobile/mobile-8.webp" alt="" loading="lazy">
+              <div class="product-info">
+                <h3>ايفون 12 بلس</h3>
+                <p>
+                   ينميز الهاتف بكاميرات احترافية  مع شحن سريع، وتصميم فاخر 
+                  </p>
+              
+                <div class="stars ">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class=" section-rival bg-danger">
+                  <i class="fas fa-tags"></i>
+                  <span >خصم بنسبة 25%</span>
+                </div>
+                <div class="price">
+                  <span>السعر 850$</span>
+                 
+                </div>
+                <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+            <div class="card overflow-hidden">
+              <img  class="m-auto"  height="190px" src="images/mobile/mobile-7.webp" alt="" loading="lazy">
+              <div class="product-info">
+                <h3>سامسونج s20 الترا</h3>
+                <p>
+                   ينميز الهاتف بكاميرات احترافية  مع شحن سريع، وتصميم فاخر بأداء قوي......
+                  </p>
+            
+                <div class="stars ">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class=" section-rival bg-danger">
+                  <i class="fas fa-tags"></i>
+                  <span >خصم بنسبة 25%</span>
+                </div>
+                <div class="price">
+                  <span>السعر 850$</span>
+                 
+                </div>
+                <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+              </div>
+            </div>
+          </div>
+    
+            <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+            <div class="card overflow-hidden">
+              <img  class="m-auto"  height="190px" src="images/mobile/mobile-9.webp" alt="" loading="lazy">
+              <div class="product-info">
+                <h3>ايفون 13 برو ماكس</h3>
+                <p>
+                   ينميز الهاتف بكاميرات احترافية  مع شحن سريع، وتصميم فاخر 
+                  </p>
+              
+                <div class="stars ">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class=" section-rival bg-danger">
+                  <i class="fas fa-tags"></i>
+                  <span >خصم بنسبة 25%</span>
+                </div>
+                <div class="price">
+                  <span>السعر 850$</span>
+                 
+                </div>
+                <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+            <div class="card overflow-hidden">
+              <img  class="m-auto"  height="190px" src="images/mobile/mobile-2.webp" alt="" loading="lazy">
+              <div class="product-info">
+                <h3>ايفون 14 برو ماكس</h3>
+                <p>
+                   ينميز الهاتف بكاميرات احترافية  مع شحن سريع، وتصميم فاخر  
+                  </p>
+             
+                <div class="stars ">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class=" section-rival bg-danger">
+                  <i class="fas fa-tags"></i>
+                  <span >خصم بنسبة 25%</span>
+                </div>
+                <div class="price">
+                  <span>السعر 850$</span>
+                 
+                </div>
+                <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+            <div class="card overflow-hidden">
+              <img  class="m-auto"  height="190px" src="images/mobile/mobile-4.webp" alt="" loading="lazy">
+              <div class="product-info">
+                <h3>سامسونج s23 الترا</h3>
+                <p>
+                   ينميز الهاتف بكاميرات احترافية  مع شحن سريع، وتصميم فاخر بأداء قوي......
+                  </p>
+              
+                <div class="stars ">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class=" section-rival bg-danger">
+                  <i class="fas fa-tags"></i>
+                  <span >خصم بنسبة 25%</span>
+                </div>
+                <div class="price">
+                  <span>السعر 850$</span>
+                 
+                </div>
+                <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+              </div>
+            </div>
+          </div>
+      
+        
+            
+         </div>
+          
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+      </div>
+    
+    </div>
+
+
+
+<section class="about-product">
+    <div class="container-fluid pt-5">
+
+      <div class="row m-3">
+
+        <div class="col-md-7">
+          <div class="section-info-one">
+          <h3> معلومات المنتج </h3>
+
+          <div class="w-75 section-info-two">
+            <h4>الوصف :</h4>
+            <p>يأتي Samsung Galaxy S24 Ultra ليؤكد من جديد تفوق سامسونج في عالم الهواتف الذكية الرائدة. الهاتف هو تحفة تقنية بكل ما تحمله الكلمة من معنى، حيث يجمع بين التصميم الأنيق والمتين، الأداء القوي، وقدرات التصوير الاحترافية. بفضل الهيكل المصنوع من التيتانيوم، الشاشة الديناميكية التي تعمل بتقنية Dynamic AMOLED 2X، والمعالج الفائق القوة، يعد هذا الهاتف الخيار المثالي للمستخدمين الذين يبحثون عن تجربة هاتف متكاملة تجمع بين الأداء الفائق، التصوير الاحترافي، والبطارية القوية. </p>
+          </div>
+
+           <h4> المميزات:</h4>
+           <ul>
+            <li> شاشة 34 بوصة UltraWide QHD </li>
+            <li>كاميرا رئيسية بدقة 200 ميجابكسل مع مستشعر محسّن لتوفير تفاصيل مذهلة حتى في الإضاءة المنخفضة.</li>
+            <li>حسينات برمجية بفضل Galaxy AI، مثل تحسين جودة الصور تلقائيًا، وإزالة العناصر غير المرغوب فيها بسهولة باستخدام أداة Photo Remaster.</li>
+            <li>بطارية ضخمة بسعة 5000 مللي أمبير تدوم ليوم كامل من الاستخدام المكثف.</li>
+            <li>معدل تحديث 120 هرتز بتقنية Adaptive Refresh Rate لضمان سلاسة فائقة في الاستخدام اليومي والألعاب.</li>
+            <li>عدسة Periscope Telephoto جديدة مع تقريب بصري 5x وتقريب رقمي يصل إلى 100x Space Zoom، مما يتيح التقاط صور مذهلة من مسافات بعيدة </li>
+           </ul>
+          
+          <p class="text-black text-decoration-underline">المزيد</p>
+        </div>
+
+      
+        </div>
+
+
+        <div class="col-md-5">
+      <ul class="nav nav-tabs">
+    
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" data-bs-toggle="tab" href="#specifications">مواصفات</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#guarantee">الضمان</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " data-bs-toggle="tab" href="#reviews">المراجعات</a>
+        </li>
+      
+      
+      </ul>
+    
+      <div class="tab-content">
+        <div class="tab-pane fade mt-3 show active " id="specifications">
+    
+          <div class="row row-cols-2 gap-4 ">
+            <div class="col w-100">
+              <table class="table table-striped">
+                <h4>المواصفات التقنية</h4>
+                <tbody>
+                  <tr>
+                    <td>العمر الموصى به</td>
+                    <td>من عمر 18 سنة </td>
+                  </tr>
+                  <tr>
+                    <td>أبعاد المنتج</td>
+                    <td>  162.3 × 79 × 8.6 ملم  </td>
+                  </tr>
+                  <tr>
+                    <td>وزن المنتج</td>
+                    <td>  233 جم  </td>
+                  </tr>
+                  <tr>
+                    <td>الدقة</td>
+                    <td>  1440 × 3120 بكسل </td>
+                  </tr>
+                  <tr>
+                    <td> نظام التشغيل</td>
+                    <td>  Android 14 </td>
+                  </tr>
+                  <tr>
+                    <td> رمز المنتج</td>
+                    <td>  3085653  </td>
+                  </tr>
+                </tbody>
+                
+              </table>
+            </div>
+            <!-- <div class="col">
+              <img class="img-fluid" src="https://jomla.ae/_next/image/?url=https%3A%2F%2Fwp.jomla.ae%2Fwp-content%2Fuploads%2F2024%2F01%2Fproduct_color_gray.png&w=640&q=75" alt="">
+            </div> -->
+          </div>
+    
+        </div>
+    
+       
+    
+        <div class="fade mt-4 tab-pane" id="guarantee">
+          <div class="row row-cols-2">
+            <div class="col w-100">
+              <h4> الضمان </h4>
+              <table class="table table-striped">
+
+                <tbody>
+                  <tr>
+                    <td>فترة الضمان (أشهر)</td>
+                    <td>24 شهر </td>
+                  </tr>
+                  <tr>
+                    <td>ضمان الملحقات</td>
+                    <td>الملحقات المضمنة 24 شهر </td>
+                  </tr>
+                  <tr>
+                    <td>مضمونة من قبل</td>
+                    <td>الشركة المصنعة </td>
+                  </tr>
+                  <tr>
+                    <td>الاستثناءات</td>
+                    <td>الكسر، الماء، التعديلات غير الرسمية</td>
+                  </tr>
+                  <tr>
+                    <td>التغطية</td>
+                    <td>عيوب التصنيع فقط</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+       
+       
+    
+        </div>
+
+        <div class=" fade mt-4  tab-pane" id="reviews">
+          <div class="row row-cols-md-2">
+            <div class="col w-100">
+              <h3>تسعدنا ردود أفعالكم</h3>
+              <form >
+                <div class="mb-3">
+                  <label class="form-label">الاسم</label>
+                  <input class="form-control" type="text" placeholder="أدخل الاسم"  >
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">البريد الالكتروني</label>
+                  <input class="form-control" type="email" placeholder="أدخل البريد الاكتروني">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">التقييم</label>
+                  <textarea class="form-control"></textarea>                
+                  </div>
+                  <button onclick="alert('شكرًا لك! تم إرسال تقييمك بنجاح. نقدّر وقتك وملاحظاتك')" class="btn btn-danger" >ارسال</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+  
+  
+
+<!-- Ratings -->
+<section class="Ratings">
+<h2 class="text-center section-title">التقييمات</h2>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4 col-md-3 d-flex align-items-center justify-content-center">
+        <div class="d-flex flex-column rating">
+          <h4 class="d-flex align-items-center justify-content-center rating-num text-warning"> 5.0</h4>
+          <div class="text-center stars">
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+          </div>
+          <p>بناء على 20 تقييم</p>
+        </div>
+      </div>
+      <div class="col-8 col-md-6">
+        <div class="d-flex flex-column rat">
+
+          <div class="d-flex align-items-center gap-3 mb-2">
+            <span>5<i class="text-warning fa-solid fa-star"></i></span>
+            <div class="flex-grow-1 progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="bg-danger progress-bar" style="width: 100%"></div>
+            </div>
+            <span>10</span> 
+          </div>
+
+          <div class="d-flex align-items-center gap-3 mb-2">
+            <span>4<i class="text-warning fa-solid fa-star"></i></span>
+            <div class="flex-grow-1 progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="bg-danger progress-bar" style="width: 90%"></div>
+            </div>
+            <span>4</span> 
+          </div>
+
+          <div class="d-flex align-items-center gap-3 mb-2">
+            <span>3<i class="text-warning fa-solid fa-star"></i></span>
+            <div class="flex-grow-1 progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="bg-danger progress-bar" style="width: 80%"></div>
+            </div>
+            <span>3</span> 
+          </div>
+
+          <div class="d-flex align-items-center gap-3 mb-2">
+            <span>2<i class="text-warning fa-solid fa-star"></i></span>
+            <div class="flex-grow-1 progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="bg-danger progress-bar" style="width: 70%"></div>
+            </div>
+            <span>2</span> 
+          </div>
+
+          <div class="d-flex align-items-center gap-3 mb-2">
+            <span>1<i class="text-warning fa-solid fa-star"></i></span>
+            <div class="flex-grow-1 progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="bg-danger progress-bar" style="width: 50%"></div>
+            </div>
+            <span>1</span> 
+          </div>
+
+          
+
+        </div>
+      </div>
+      <div class="col-12 col-md-3 d-flex align-items-center justify-content-center mt-sm-5">
+        <div class="check-rating">
+        <h2 class="text-center">إضافة تقييم</h2>
+        <p>يمكنك إضافة تقييم من خلال اختيار النجوم</p>
+
+        <div class="text-center star-chek">
+        <span> <i class="fa-bounce fa-regular fa-star" style="color: #393938;"></i></span>
+        <span> <i class="fa-bounce fa-regular fa-star" style="color:  #393938;"></i></span>
+        <span> <i class="fa-bounce fa-regular fa-star" style="color: #393938;"></i></span>
+        <span> <i class="fa-bounce fa-regular fa-star" style="color:  #393938;"></i></span>
+        <span> <i class="fa-bounce fa-regular fa-star" style="color:  #393938;"></i></span>
+      </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="Customer-opinions">
+  <!-- <div class="container-fluid m-3"> -->
+    <div class="row">
+      <div class="col-12 col-md-12 d-flex align-items-center justify-content-start">
+        <img class="img-customer" src="images/testi1.png" alt="" loading="lazy">
+        <div class="d-flex flex-column w-100 info-customer">
+          <h5>خالد سمير</h5>
+          <p class="date mb-1">12 \ 1 \ 2025</p>
+          <div class="text-start customer-rat mt-0">
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+          </div>
+          <p class="desc-customer">
+
+"بصراحة، الهاتف خرافي!  Snapdragon القوي. البطارية تدوم طوال اليوم حتى مع الاستخدام المكثف. تجربة رائعة!"
+
+
+
+          </p>
+
+        
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-12 d-flex align-items-center justify-content-start">
+        <img class="d img-customer" src="images/testi1.png" alt="" loading="lazy">
+        <div class="d-flex flex-column w-100 info-customer">
+          <h5> سارة عبد الله</h5>
+          <p class="date mb-1">3 \ 2 \ 2024</p>
+          <div class="text-start customer-rat mt-0">
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+          </div>
+          <p class="desc-customer">
+            تجربة رائعة مع الهاتف. البطارية طويلة الأمد. الشاشة جميلة. سرعة خرافية
+          </p>
+
+        
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-12 d-flex align-items-center justify-content-start">
+        <img class="d img-customer" src="images/testi1.png" alt="" loading="lazy">
+        <div class="d-flex flex-column w-100 info-customer">
+          <h5>أحمد سعيد</h5>
+          <p class="date mb-1">30 \ 2 \ 2024</p>
+          <div class="text-start customer-rat mt-0">
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+          </div>
+          <p class="desc-customer">
+        أفضل هاتف استخدمته حتى الآن، قوة الأداء والتصميم الفخم يجعلان منه جهاز متكامل
+          </p>
+
+        
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-12 d-flex align-items-center justify-content-start">
+        <img class="d img-customer" src="images/testi1.png" alt="" loading="lazy">
+        <div class="d-flex flex-column w-100 info-customer">
+          <h5>لمياء يوسف</h5>
+          <p class="date mb-1">21 \ 5 \ 2025</p>
+          <div class="text-start customer-rat mt-0">
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+            <i class="text-warning fa-solid fa-star"></i>
+          </div>
+          <p class="desc-customer">
+          الهاتف ممتاز مع الكاميرا الرائعة والتصميم أنيق جدًا. أنصح به لمحبي الهواتف الرائدة
+          </p>
+
+        
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<div class="container-fluid mt-5">
+  <h2 class="text-center section-title">ملحقات مقترحة</h2>
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+
+    <!-- <div class="row row-cols-2 row-cols-md-6 all-products">  -->
+      <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+        <div class="card overflow-hidden">
+          <img  class="m-auto"  height="190px" src="images/cover/cover-1.webp" alt="" loading="lazy">
+          <div class="product-info">
+            <h3>كفر جوال سامسونج S24 Ultra</h3>
+            <p>
+              كفر جوال سيليكون سامسونج اس 24 الترا هي الخيار الافضل والامثل لحماية هاتفك الذكي 
+            </p>
+         
+            <div class="stars ">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <div class=" section-rival bg-danger">
+              <i class="fas fa-tags"></i>
+              <span >خصم بنسبة 25%</span>
+            </div>
+            <div class="price">
+              <span>السعر 850$</span>
+             
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+        <div class="card overflow-hidden">
+          <img  class="m-auto"  height="190px" src="images/cover/cover-2.webp" alt="" loading="lazy">
+          <div class="product-info">
+            <h3>كفر جوال ايفون 14 برو ماكس</h3>
+            <p>
+              تصميم أصلي من أبل مع دقة تناسب أبعاد الهاتف بشكل مثالي ، حماية شاملة مع ملمس ناعم ومريح على اليد لتجربة مريحة 
+            </p>
+         
+            <div class="stars ">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <div class=" section-rival bg-danger">
+              <i class="fas fa-tags"></i>
+              <span >خصم بنسبة 25%</span>
+            </div>
+            <div class="price">
+              <span>السعر 850$</span>
+             
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+        <div class="card overflow-hidden">
+          <img  class="m-auto"  height="190px" src="images/cover/cover-3.webp" alt="" loading="lazy">
+          <div class="product-info">
+            <h3>كفر جوال ايفون 16 برو ماكس</h3>
+            <p>
+              تصميم أصلي من أبل مع دقة تناسب أبعاد الهاتف بشكل مثالي ، حماية شاملة مع ملمس ناعم ومريح على اليد لتجربة مريحة 
+              </p>
+        
+            <div class="stars ">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <div class=" section-rival bg-danger">
+              <i class="fas fa-tags"></i>
+              <span >خصم بنسبة 25%</span>
+            </div>
+            <div class="price">
+              <span>السعر 850$</span>
+             
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+        <div class="card overflow-hidden">
+          <img  class="m-auto"  height="190px" src="images/cover/cover-0.webp" alt="" loading="lazy">
+          <div class="product-info">
+            <h3>شاشة حماية ايفون 14 برو ماكس</h3>
+            <p>
+شاشة حماية جوال مثالية للحفاظ على الهاتف سليم من كل الصدمات الخارجية ، زجاج متين وقوي              </p>
+       
+            <div class="stars ">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <div class=" section-rival bg-danger">
+              <i class="fas fa-tags"></i>
+              <span >خصم بنسبة 25%</span>
+            </div>
+            <div class="price">
+              <span>السعر 850$</span>
+             
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+        <div class="card overflow-hidden">
+          <img  class="m-auto"  height="190px" src="images/cover/cover-4.webp" alt="" loading="lazy">
+          <div class="product-info">
+            <h3>شاشة حماية سامسونج S24 الترا</h3>
+            <p>
+شاشة حماية من الزجاج المتين والقوي لحماية مضاعفة للجوال من اي خطر خارجي، سهلة التركيب               </p>
+           
+            <div class="stars ">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <div class=" section-rival bg-danger">
+              <i class="fas fa-tags"></i>
+              <span >خصم بنسبة 25%</span>
+            </div>
+            <div class="price">
+              <span>السعر 850$</span>
+             
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+        <div class="card overflow-hidden">
+          <img  class="m-auto"  height="190px" src="images/cover/cover-5.webp" alt="" loading="lazy">
+          <div class="product-info">
+            <h3>كفر جوال سامسونج S24 الترا</h3>
+            <p>
+              كفر جوال سيليكون سامسونج اس 24 الترا هي الخيار الافضل والامثل لحماية هاتفك الذكي 
+              </p>
+        
+            <div class="stars ">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <div class=" section-rival bg-danger">
+              <i class="fas fa-tags"></i>
+              <span >خصم بنسبة 25%</span>
+            </div>
+            <div class="price">
+              <span>السعر 850$</span>
+             
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+        <div class="card overflow-hidden">
+          <img  class="m-auto"  height="190px" src="images/cover/cover-6.webp" alt="" loading="lazy">
+          <div class="product-info">
+            <h3>كفر جوال سامسونج S25 الترا</h3>
+            <p>
+              كفر جوال سيليكون سامسونج اس 24 الترا هي الخيار الافضل والامثل لحماية هاتفك الذكي 
+              </p>
+        
+            <div class="stars ">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <div class=" section-rival bg-danger">
+              <i class="fas fa-tags"></i>
+              <span >خصم بنسبة 25%</span>
+            </div>
+            <div class="price">
+              <span>السعر 850$</span>
+             
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-2 text-center mb-2 swiper-slide  ">
+        <div class="card overflow-hidden">
+          <img  class="m-auto"  height="190px" src="images/cover/cover-7.webp" alt="" loading="lazy">
+          <div class="product-info">
+            <h3>حماية عدسات ايفون 14 برو ماكس</h3>
+            <p>
+اضع حماية لعدسات جوال ايفون الخاص بك واحمي عدسات هاتفك من اي خدش او ضرر قد يؤثر على عدسات الكاميرا              </p>
+          
+            <div class="stars ">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <div class=" section-rival bg-danger">
+              <i class="fas fa-tags"></i>
+              <span >خصم بنسبة 25%</span>
+            </div>
+            <div class="price">
+              <span>السعر 850$</span>
+             
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-danger w-100">أضف الى السلة</button>
+          </div>
+        </div>
+      </div>
+  
+    
+        
+     </div>
+      
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <div class="container w-100">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+      <div class="col first-f mb-3">
+        <img class="w-75" src="images/logo.png" alt="logo" loading="lazy">
+        <p class="text-white mt-3">
+المتجر مهتم بالجودة والفخامة ونسعى الى توفير كل جديد وكل ما يرضي عملائنا
+        </p>
+        <ul class="navbar-nav text-white">
+          <li><i class="fa-solid fa-location-dot"></i> حمص - سورية</li>
+          <li><i class="fa-solid fa-phone"></i> 0123456789</li>
+          <li><i class="fa-solid fa-envelope"></i> mahmoudalshame360@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h3 class="text-white">أهم الروابط</h3>
+        <ul class="navbar-nav">
+          <li><a href="#">الرئيسية</a></li>
+          <li><a href="#">من نحن</a></li>
+          <li><a href="#">اتصل بنا</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h3 class="text-white">التصنيفات</h3>
+        <ul class="navbar-nav ">
+          <li><a href="#">جوالات</a></li>
+          <li><a href="#">لابتوبات</a></li>
+          <li><a href="#">الساعات</a></li>
+          <li><a href="#">الكهربائيات</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h3 class="text-white">النشرة البريدية</h3>
+        <p class="text-white">نص نت عندك ليشترك بالنشرة البريدية</p>
+        <form >
+          <input class="form-control" type="text" placeholder="الرجاء ادخال البريد الالكتروني ">
+          <button class="btn btn-danger w-100 mt-3">اشتراك</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 mt-3">
+      <div class="col">
+      <img class="img-fluid" src="images/payments.png" alt="" loading="lazy">
+    </div>
+    <div class="col d-flex justify-content-end">
+      <p class="text-white text-center">جميع الحقوق محفظة 2025 &copy;</p>
+    </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- cart -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="cart"
+      aria-labelledby="cart"
+    
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="cart">
+          سلة المشتريات
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body ">
+        <div class=" row-mini-card ">
+
+          <div class=" mini-card d-flex justify-content-between align-items-center ">
+            <img class="img-fluid w-25" src="images/mobile/mobile-3.webp" alt="">
+
+            <p>سامسونج S24 الترا</p>
+
+            <div class="btn-group btns-quantity-mini ">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn ">1</button>
+              <button type="button" class="btn ">-</button>
+            </div>
+          </div>
+
+          <div class=" mini-card d-flex justify-content-between align-items-center ">
+            <img class="img-fluid w-25" src="images/watches/watch-3.webp" alt="">
+
+            <p>ساعة ذكية جي تي 5 برو </p>
+
+            <div class="btn-group btns-quantity-mini ">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn ">1</button>
+              <button type="button" class="btn ">-</button>
+            </div>
+          </div>
+
+          <div class=" mini-card d-flex justify-content-between align-items-center ">
+            <img class="img-fluid w-25" src="images/cover/cover-1.webp" alt="">
+
+            <p>كفر جوال اس 24 الترا </p>
+
+            <div class="btn-group btns-quantity-mini ">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn ">1</button>
+              <button type="button" class="btn ">-</button>
+            </div>
+          </div>
+
+          <div class=" mini-card d-flex justify-content-between align-items-center ">
+            <img class="img-fluid w-25" src="images/laptop/laptop-2.webp" alt="">
+
+            <p>ماك بوك برو </p>
+
+            <div class="btn-group btns-quantity-mini ">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn ">1</button>
+              <button type="button" class="btn ">-</button>
+            </div>
+          </div>
+          
+
+          
+
+          
+
+        </div>
+
+        <div class="d-flex flex-column gap-2">
+          <p class="alert alert-danger p-3 text-center my-3">مجموع المنتجات : 3000$ فقط لا غير </p>
+          <a href="cart.html"><button class="btn btn-primary w-100 ">عرض السلة</button></a>
+          <a href="checkout.html"><button class="btn btn-danger w-100">إتمام الطلب</button></a>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- login -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="login"
+      aria-labelledby="login"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="login">تسجيل الدخول</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="mini-login">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">البريد الالكتروني </label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">كلمة المرور</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="checkbox" />
+              <label class="form-check-label" for="checkbox">تذكرني</label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              تسجيل الدخول
+            </button>
+          </form>
+          <div class="alert alert-danger text-center my-3">
+            <a href="#">أنقر في حال نسيت كلمة المرور</a>
+          </div>
+          <hr />
+          <div class="text-center mt-5">
+            <i class="fa-3x fa-regular fa-user"></i>
+            <p>لا تملك حساب ؟</p>
+            <a class="btn btn-primary text-white w-100" href="#"
+              >أنشاء حساب جديد</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- jquery -->
+
+    <!-- filter -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- filter -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- swiper -->
+
+    <script src="js/Bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
